@@ -165,7 +165,7 @@ export const AgentCenter: React.FC<AgentCenterProps> = ({ onNavigate }) => {
                                <Shield className="text-emerald-500 w-5 h-5" />
                                <div>
                                   <div className="text-sm text-slate-200">风险阻断能力</div>
-                                  <div className="text-xs text-slate-500">当风险系数 > 80% 时自动熔断</div>
+                                  <div className="text-xs text-slate-500">当风险系数 {'>'} 80% 时自动熔断</div>
                                </div>
                             </div>
                             <input type="checkbox" defaultChecked className="toggle" />

@@ -641,8 +641,8 @@ export const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
                      <span className="text-xs text-slate-500 font-mono">10:42:05</span>
                   </div>
                   <p className="text-sm text-slate-400 mb-2">
-                     监测到 #3 涂布机左侧面密度偏差 > 2%。预计影响电芯一致性。
-                  </p>
+                     监测到 #3 涂布机左侧面密度偏差 {'>'} 2%。预计影响电芯一致性。
+                   </p>
                   <div className="flex gap-2">
                      <Badge status={StatusLevel.RISK} />
                      <Badge status={StatusLevel.PROCESSING} className="border-blue-500/30 text-blue-400" />
